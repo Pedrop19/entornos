@@ -5,7 +5,11 @@ import javax.swing.border.EmptyBorder;
 
 public class Grafico1 extends JFrame {
 
-    private JPanel contentPane;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
 
     /**
      * Launch the application.

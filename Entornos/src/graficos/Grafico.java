@@ -3,7 +3,7 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-public class Grafico1 extends JFrame {
+public class Grafico extends JFrame {
 
     /**
 	 * 
@@ -18,7 +18,7 @@ public class Grafico1 extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    Grafico1 frame = new Grafico1();
+                    Grafico frame = new Grafico();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -30,7 +30,7 @@ public class Grafico1 extends JFrame {
     /**
      * Create the frame.
      */
-    public Grafico1() {
+    public Grafico() {
     	
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 450, 300);
